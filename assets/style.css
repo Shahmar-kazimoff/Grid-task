@@ -1,0 +1,134 @@
+.container {
+    display: grid;
+    margin: 3% auto;
+    grid-template-columns: 50px 120px 120px 50px;
+    grid-template-rows: 20px 60px 120px 100px 110px 100px 90px 20px;
+    border: 5px solid gray;
+    width: max-content;
+
+}
+
+body {
+    margin: 0;
+}
+
+.item-first {
+    background-color: #52A7F9;
+
+
+}
+
+.item-second {
+    background-color: white;
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+
+.small-item1 {
+    margin-left: 25px;
+    width: 15px;
+    height: 25px;
+    background-color: #DDDEE0;
+}
+
+.small-item2 {
+    width: 40px;
+    height: 10px;
+    background-color: #DDDEE0;
+}
+
+.small-item3 {
+    width: 15px;
+    height: 25px;
+    background-color: #DDDEE0;
+    position: absolute;
+    bottom: 28.8px
+}
+
+.small-item4 {
+    width: 40px;
+    height: 10.2px;
+    background-color: #DDDEE0;
+    position: absolute;
+    bottom: 6px;
+}
+
+.item-third {
+    background-color: #6FC041;
+}
+
+.item-fourth {
+    background-color: white;
+    display: grid;
+    justify-items: end;
+    align-items: end;
+    position: relative;
+}
+
+.small-item5 {
+    width: 60px;
+    height: 10px;
+    background-color: #DDDEE0;
+    position: absolute;
+    top: 10px
+}
+
+.small-item6 {
+    width: 90px;
+    height: 50px;
+    background-color: #DDDEE0;
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+}
+
+.small-item7 {
+    width: 60px;
+    height: 10px;
+    background-color: #DDDEE0;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.small-item8 {
+    width: 90px;
+    height: 50px;
+    background-color: #DDDEE0;
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+}
+
+.item-fifth {
+    background-color: #B36AE2;
+}
+
+.item-i {
+    position: absolute;
+    margin: auto 28px;
+}
+
+.item-i1 {
+    position: absolute;
+    margin: auto 50px;
+}
+
+.item-i2 {
+    position: absolute;
+    width: 340px;
+}
+
+.item-sixth {
+    background-color: white;
+}
+
+.item-seventh {
+    background-color: #F3901A;
+}
+
+.item-eighth {
+    background-color: #0365C0;
+}
